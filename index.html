@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inputbox">
+            <input type="text" id="inputbox" disabled>
+        </div>
+        <div class="secondbox">
+            <input onclick="display(this)" type="button" class="but" value="7">
+            <input onclick="display(this)" type="button" class="but" value="8">
+            <input onclick="display(this)" type="button" class="but" value="9">
+            <input onclick="display(this)" type="button" class="but operator" value="/">
+            <input onclick="display(this)" type="button" class="but" value="4">
+            <input onclick="display(this)" type="button" class="but" value="5">
+            <input onclick="display(this)" type="button" class="but" value="6">
+            <input onclick="display(this)" type="button" class="but operator" value="*">
+            <input onclick="display(this)" type="button" class="but" value="1">
+            <input onclick="display(this)" type="button" class="but" value="2">
+            <input onclick="display(this)" type="button" class="but" value="3">
+            <input onclick="display(this)" type="button" class="but operator" value="-">
+            <input onclick="display(this)" type="button" class="but" value="0">
+            <input onclick="display(this)" type="button" class="but operator" value="+">
+            <input onclick="display(this)" type="button" class="but equal" value="=">
+            <input onclick="Clear(this)" type="button" class="but clear" value="clear">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
